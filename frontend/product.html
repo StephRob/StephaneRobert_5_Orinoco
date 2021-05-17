@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Caméras vintage</title>
+  <meta name="description"
+    content="Orinoco est la référence de la vente en ligne de caméras vintage. Retrouvez ici un large gamme de produit">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstap v4.6 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Font Awesom-->
+  <script src="https://kit.fontawesome.com/0e479fef98.js" crossorigin="anonymous"></script>
+  <!-- Style-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand logo mb-0 h1" href="index.html">Orinoco</a>
+        <div class="navbar-nav">
+          <a class="nav-link active" href="cart.html">Panier <i class="fas fa-shopping-basket"></i><span id="cart-badge"
+              class="cart-badge">0</span></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- BANNER -->
+    <section class="jumbotron d-flex flex-column justify-content-center align-items-center text-center">
+      <h1 class="display-4">Caméra vintage</h1>
+    </section>
+    <!-- PRODUCT DETAIL -->
+    <section class="product container">
+      <h2 id="product-title"></h2>
+      <hr class="my-4">
+      <div class="row my-4">
+        <div class="product-img col-12 col-lg-6 my-3">
+          <img id="product-img" src="" alt="..." class="rounded shadow">
+        </div>
+        <div class="product-description col-12 col-lg-6 my-3">
+          <h5 class="card-title">Détail produit :</h5>
+          <p id="product-description" class="card-text"></p>
+          <hr class="my-4">
+          <p>Choisissez votre lentille :</p>
+          <select id="select-lense" class="form-control mb-3 select-lense">
+          </select>
+          <hr class="my-4">
+          <p id="product-price" class="lead card-text"></p>
+          <p class="confirm-add-to-cart">Votre article a bien été ajouter au panier</p>
+          <button href="#" id="card-link" class="btn btn-custom btn-purple shadow-sm add-to-cart-btn">Ajouter au panier</button>
+          <div class="added-to-cart">
+            <a href="cart.html" id="card-link" class="btn btn-custom btn-purple shadow-sm"><i class="fas fa-shopping-basket"></i> Voir mon panier</a>
+            <a href="index.html" id="card-link" class="btn btn-custom btn-orange shadow-sm"><i class="fas fa-store"></i> Continuer mon shopping</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SCRIPT FILES -->
+  <script src="product.js"></script>
+  <script src="cartBadge.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+header .logo {
+  font-family: 'Gloria Hallelujah',
+  cursive;
+  font-size: 2.2rem;
+  background: -webkit-linear-gradient(324deg, #E58A0C, #8F5BFE);
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+header .navbar-nav a {
+  font-size: 1.2rem;
+  position: relative;
+}
+
+main {
+  margin-top: 78px;
+}
+
+.jumbotron {
+  background-image: linear-gradient(324deg, rgba(229, 138, 12, .8), rgba(143, 91, 254, .8)),
+  url("../images/banner.jpg");
+  background-size: cover;
+  color: #fff;
+  border-radius: unset;
+}
+
+.all-products {
+  padding-top: 80px;
+}
+
+.banner-homepage {
+  height: 50vh;
+}
+
+.btn-custom {
+  width: fit-content;
+  margin-right: 1.5rem;
+  margin-bottom: .5rem;
+}
+.btn-orange {
+  color: #fff;
+  background-color: #E58A0C;
+  border-color: #E58A0C;
+  
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #8f5bfe;
+  border-color: #8f5bfe;
+}
+
+.btn-purple:hover:disabled {
+  color: #fff;
+}
+
+.btn-purple-cart {
+  width: 100%;
+}
+
+.lead {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cart-badge {
+  position: absolute;
+  top: 6px;
+  right: -7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .9rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  background-color: #8f5bfe;
+  border-radius: 50%;
+}
+
+.select-lense,
+.summary-quantity {
+  width: fit-content;
+}
+
+.no-empty-cart {
+  display: none;
+}
+
+.summary-total {
+  border-top: 2px solid #dee2e6;
+  font-weight: bold;
+}
+
+.table th {
+  border-top: none;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.added-to-cart {
+  display: none;
+}
+
+.confirm-add-to-cart {
+  visibility: hidden;
+  color: green;
+  margin-bottom: .5rem;
+}
